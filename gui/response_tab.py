@@ -11,7 +11,7 @@ class ResponseTab:
         self.main_window = main_window
 
     def start(self):
-        self.tkFrame: TkFrame = TkFrame(self.main_window, 'Cria requisição')
+        self.tkFrame: TkFrame = TkFrame(self.main_window, 'Resposta')
 
     def show(self, response):
         row = 0
