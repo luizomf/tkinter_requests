@@ -8,7 +8,7 @@ from typing import Iterable, Tuple
 class TkFrame:
     def __init__(self, parent: MainWindow, frame_name: str) -> None:
         self.parent = parent
-        self.frame: tk.Frame = self.parent.add_frame('Cria requisição')
+        self.frame: tk.Frame = self.parent.add_frame(frame_name)
 
     def add_label(self, text: str, parent=None) -> tk.Label:
         """Add tk.Label"""
